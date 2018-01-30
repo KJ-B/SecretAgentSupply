@@ -62,3 +62,29 @@ body h2 {
 .banner h1 {
   padding-top: 0.75rem;
 }
+
+.products {
+  margin: 0% 11.2%;
+  width: 100%;
+  display: flex;
+  padding: 3em 0em;
+}
+
+.pen, .watches, .glasses {
+  width: 16rem;
+  height: 16rem;
+  border: .25rem black solid;
+}
+
+.pen {
+  background: url('../../images/pen.png') no-repeat center;
+  background-size: contain;
+}
+
+div.pen {
+  background-size: 65%;
+}
+
+.pen h2 {
+  background-color: black;
+}
