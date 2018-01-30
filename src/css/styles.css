@@ -7,7 +7,7 @@ header, .secret, header img {
   align-items: center;
 }
 
-body, h1, h2, header h2 {
+body, header h2, .banner {
   margin: 0;
   border: 0;
   font-family: helvetica;
@@ -25,10 +25,22 @@ header img {
 }
 
 .secret {
-  width: 960px;
+  width: 100%;
   margin: 0% 11.17%;
 }
 
-h2 {
-  font-size: 1.5rem;
+body h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body h2 {
+  font-size: 1rem;
+}
+
+.banner {
+    background: url('../../images/moto.jpeg') no-repeat center;
+    background-size: cover;
+    height: 31.5rem;
+    width: 100%;
 }
