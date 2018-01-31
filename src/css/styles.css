@@ -21,12 +21,12 @@ header {
 
 header img {
   height: 1.5rem;
-  padding: 0em 1.5em 0em 0.5em;
+  padding: 0em 1.5em 0em 0em;
 }
 
 .secret {
   width: 100%;
-  margin: 0% 11.17%;
+  margin: 0% 11.2%;
 }
 
 body h1 {
@@ -66,26 +66,36 @@ body h2 {
 
 .options{
   background-color: firebrick;
-  /*width: 100%;*/
   display: flex;
+  padding: 0.95rem 0rem;
 }
 
-.options ul{
+nav ul{
   display: inline-flex;
   margin: 0% 11.2%;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .products {
-  margin: 0% 3.73%;
-  width: 100%;
+  width: 77.6%;
   display: flex;
-  padding: 3em 0em;
+  padding: 3rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 11.2%;
 }
 
-.pen, .watches, .glasses {
-  width: 16rem;
-  height: 16rem;
+.items.products {
+  margin: 0% 11.2%
+  justify-content: space-between;
+}
+
+
+.pen, .watch, .glasses {
+  width: 30%;
+  height: 20rem;
   border: .20rem black solid;
 }
 
@@ -94,17 +104,16 @@ body h2 {
   background-size: contain;
 }
 
-div.pen, div.glasses {
+div.pen, div.glasses, div.watch {
   background-size: 65%;
 }
 
 .pen h2, .watch h2, .glasses h2 {
   background-color: rgba(0, 0, 0, 0.75);
-  height: 15%;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.25%;
 }
 
 .watch {
